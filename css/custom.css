@@ -1,0 +1,77 @@
+body {
+    background: #fff;
+    font-family: 'Open Sans', sans-serif;
+    margin: auto;
+    padding: 0px;
+}
+
+img.banner-img {
+    height: 287px;
+    width: 100%;
+}
+
+.text {
+    float: left;
+    margin: auto;
+    width: 50%;
+    padding: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+    margin: 0;
+}
+
+.text p{
+	text-align: justify;
+}
+
+.banner{
+	background-image: url(../image/mofaya2.png);
+    width: 100%;
+   	background-size: cover;
+}
+
+h1{
+	padding: 4em;
+	padding-bottom: 0em;
+	color: #fff;
+}
+
+a.read-more {
+    text-decoration: none;
+    border: 2px solid #2f2e2e;
+    color: white;
+    background: #2f2e2e;
+    padding: .7em 2em;
+    margin-top: 2em;
+    float: left;
+    transition: all .5s ease;
+}
+
+a.read-more:hover{
+	background: transparent;
+	transition: all .5s ease;
+	color: #2f2e2e;
+}
+
+.banner p{
+	padding-bottom:5em;
+	text-align: center;
+	color: #fff;
+}
+/*
+img {
+    float: right;
+    margin: auto;
+}
+*/
+
+.image {
+    width: 50%;
+    float: right;
+    margin: auto;
+    padding: 3.3em;
+}
+
+.row {
+    display: inline-flex;
+}
